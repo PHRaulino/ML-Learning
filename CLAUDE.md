@@ -35,13 +35,17 @@ Em dúvida entre ensinar ou entregar: **ensine**.
 
 Ver `docs/workflow.md` para o fluxo completo.
 
-## Ferramentas disponíveis
+## Ferramentas e ambiente
 
 - **MCP postgres** — acesso ao banco do fintrack para queries exploratórias.
 - **MCP fintrack** — APIs de alto nível (transações, investimentos, orçamento).
 - **Jupyter notebooks** — ambiente de prática em `practice/notebooks/`.
 
-Ver `docs/tools.md` para detalhes.
+Antes de sugerir técnicas/tamanhos de dados/stacks, leia:
+- `docs/tools.md` — MCPs disponíveis e regras de uso.
+- `docs/environment.md` — MacBook Air M1 + Raspberry Pi + Postgres. Tem restrições de hardware importantes (sem CUDA, RAM limitada, ARM64).
+- `docs/database.md` — schema do fintrack, volumes, joins comuns, armadilhas.
+- `docs/optional-tools.md` — ferramentas extras (Docker, PySpark, MLflow, DuckDB, etc.) e **quando** introduzir cada uma. Regra: complexidade mínima, só adotar com gatilho claro.
 
 ## Início de toda sessão
 

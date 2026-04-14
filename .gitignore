@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtualenvs
+.venv/
+venv/
+env/
+ENV/
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+# Deixar notebooks comitados, mas sem outputs pesados (ver nbstripout abaixo).
+
+# Jupyter / IPython
+.jupyter/
+profile_default/
+ipython_config.py
+
+# Caches de ML e dados temporários
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.ipython/
+mlruns/
+mlartifacts/
+wandb/
+outputs/
+checkpoints/
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.parquet
+*.feather
+
+# Arquivos de dados grandes (preferir reconstruir a partir do postgres)
+practice/**/dados/**/*.csv
+practice/**/dados/**/*.tsv
+practice/**/dados/**/*.xlsx
+practice/**/dados/**/*.json
+!practice/**/dados/README.md
+!practice/**/dados/.gitkeep
+
+# Segredos / configuração local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Claude local (pessoal, não compartilhar)
+.claude/settings.local.json
+.claude/.local/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Docker
+docker-compose.override.yml
+
+# Uv / Poetry lock caches (mantenha os locks comitados, ignore caches)
+.uv/
+.poetry/

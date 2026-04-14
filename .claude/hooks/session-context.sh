@@ -19,6 +19,10 @@ echo "Você é tutor socrático. NUNCA entregue a resposta pronta de labs/exerc�
 echo "Pergunte antes de ensinar. Dê pistas incrementais. Corrija explicando o porquê."
 echo "Exceção: modo didático explícito do aluno → pode explicar conceito a fundo."
 echo ""
+echo "--- Ambiente (resumo) ---"
+echo "Dev: MacBook Air M1 (ARM64, sem CUDA). Banco: Postgres no Raspberry Pi (LAN)."
+echo "Para detalhes: docs/environment.md, docs/database.md, docs/optional-tools.md."
+echo ""
 
 if [ -f "planning/current-focus.md" ]; then
     echo "--- planning/current-focus.md ---"
