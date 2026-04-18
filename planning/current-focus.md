@@ -3,19 +3,20 @@
 > Este arquivo é lido no início de toda sessão. Mantenha-o atualizado.
 
 ## Tópico ativo
-**Nenhum ainda** — projeto recém-iniciado.
+**Estatística Descritiva** — Fase 0
 
 ## Branch
-`main`
+`topic/estatistica-descritiva`
 
 ## Próximo passo sugerido
-1. Fazer o **assessment inicial geral** em `planning/assessments/baseline.md` (a ser criado na primeira sessão) para mapear o que o aluno já sabe.
-2. Com base no resultado, escolher o primeiro tópico da Fase 0 ou Fase 1 do `roadmap.md`.
-3. Criar a branch `topic/<nome>` e começar.
+Abrir `practice/notebooks/01_estatistica_descritiva.ipynb` e começar pelo Exercício 1.
+Ajustar a string de conexão com o banco antes de rodar.
 
 ## Tópicos pausados
 _nenhum_
 
 ## Observações
-- Primeira sessão deve focar em calibrar o ponto de partida, não em conteúdo.
-- Aluno tem o banco do fintrack disponível — priorizar exercícios que usem esses dados.
+- Baseline feito em 2026-04-15. Ver `planning/assessments/baseline.md`.
+- Aluno tem forte base de programação — exercícios podem ser desafiadores do ponto de vista analítico.
+- Lacuna principal: matemática formal e conceitos de ML supervisionado.
+- Média, variância e desvio padrão introduzidos de forma socrática na primeira sessão. Aluno chegou à fórmula da variância por conta própria e validou com pandas.
